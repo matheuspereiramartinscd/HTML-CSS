@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.container{
+    padding-bottom: 15px;
+}
+
+.container ul li{
+    padding:10px;
+}
+
+.ulbox{
+    padding-top:10px;
+    padding-left:65px;
+}
+
+.sidebar ul{
+    list-style-type: none;
+    float:left;
+    margin:0;
+    padding:0;
+
+}
+
+.sidebar ul li{
+   
+    margin:0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a {
+    color:black;
+}
+
+.sidebar{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height:100%;
+    width:20vw;
+    top: 0px;
+    left: 0px;
+    position:fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    overflow-x:hidden;
+    border-right: black solid;
+    border-width: 3px;
+    background-color:#EBFFF2;
+}
+
+.border{
+    font-size:20px;
+    padding:15px;
+    padding-left:35px;
+    width: 20vw;
+    border-bottom: rgb(12, 13, 11) solid;
+    border-width: 2px;
+}
+
+.borderhtml{
+    font-size:30px;
+    font-weight:bold;
+    padding-top: 20px;
+    padding-bottom:20px;
+    text-align: center;
+    width: 20vw;
+    border-bottom: rgb(12, 13, 11)solid;
+    border-width: 2px;
+}
+
+.borderreference{
+    font-size:20px;
+    padding:20px;
+    padding-left:35px;
+    width: 20vw;
+
+}
+
+#main{
+    margin-left:20vw;
+    color:black;
+    padding-left:40px;
+    padding-top:10px;
+    text-align: justify;
+    width: 75%;
+}
+
+.container h1{
+    padding-top:15px;
+    font-size:30px;
+}
+
+.container p{
+    padding-top:30px;
+    padding-left:30px;
+    
+}
+
+.example h2{
+    font-size:20px;
+    color:grey;
+    padding-bottom:10px;
+   
+}
+
+.box{
+    background-color: #D8EBE7;
+    position: relative;
+    left:50px;
+    width:97%;
+}
+
+.secondbox{
+    padding:20px;
+}
+
+.htmldocument{
+    padding:15px;
+}
+
+#reference ul{
+    list-style-type: disc;
+    padding-left:70px;
+}
+
+.copyright{
+    float:right;
+}
