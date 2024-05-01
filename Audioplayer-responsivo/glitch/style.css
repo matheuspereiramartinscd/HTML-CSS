@@ -1,0 +1,626 @@
+@media screen and (min-width:1752px) {
+    *{
+        margin:0;
+        padding:0;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 17px;
+    
+    }
+    
+    a:link {
+        color: 2DD6A6;
+      }
+      
+      /* visited link */
+      a:visited {
+        color: 2DD6A6;
+      }
+      
+      /* mouse over link */
+      a:hover {
+        color: 2DD6A6;
+      }
+      
+      /* selected link */
+      a:active {
+        color: 2DD6A6;
+      }
+    
+    body{
+        background-image:     linear-gradient(
+            rgba(0, 1, 0, 0.6),
+            rgba(52, 144, 247, 0.6)
+          
+          ),
+          url("../images/imagemcontainer.jpg");
+          background-repeat: no-repeat; 
+          background-size: cover;
+        
+    }
+    
+    button, input[type="submit"], input[type="reset"] {
+        background: none;
+        color: inherit;
+        border: none;
+        padding: 0;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+    }
+    
+    button:hover {
+        background-color: #2DD6A6;
+    }
+    
+    
+    body{
+        background-color: #493EED;
+        color: white;
+        font-size: large;
+        font-weight: bold;
+    }
+    
+    
+    
+    
+    .musicselection {
+    
+        width:40%;  
+        height: 900px;
+        margin:0 auto;
+    }
+    
+    .musicselectionbox{
+     
+        padding:20px;
+        
+    }
+    
+    
+    
+    
+    .musictotalminutes {
+        float:right;
+    
+    }
+    
+    .playerbox{
+        width:40%;
+        margin:0 auto;
+        text-align: center;
+        padding-top: 90px;
+    }
+    
+    #status{
+        float:left;
+        color:34F789;
+    
+    }
+    
+    #musicname{
+        float:right;
+        white-space: pre;;
+        color:3EECED;
+    }
+    
+    
+    
+    #repeatbutton{
+        float:left;
+    }
+    
+    
+    
+    .downloadicon{
+        float:right;
+    }
+    
+    .arrow{
+        padding:20px;
+        margin-top:50px;
+    }
+    
+    
+    
+    .nextarrow{
+        margin-left:30px;
+    }
+    
+    .player{
+        padding-top:50px;
+        padding-bottom: 100px;
+        
+    }
+    
+    .footer{
+        padding-top:50px;
+        text-align: center;
+    }
+    
+    #startbutton{ 
+        float:left;
+        margin-left:10px;
+        
+    }
+    
+    #stopbutton{
+        float:left;
+        margin-left:10px;
+        
+    }
+    
+    .hidden{
+        display:none;
+    }
+    
+    .slider
+    {
+        width: 500px;;
+        float:left;
+        margin-top:4px;
+        margin-left:10px;
+    }
+    
+    
+    #musicbutton{
+        text-align: left;
+        width: 100%;
+    
+    }
+    
+    
+    /* Removes play-button */
+    audio::-webkit-media-controls-play-button {
+        display: none;
+      }
+    
+      /* Removes the time stamp */
+    audio::-webkit-media-controls-current-time-display {
+        position: relative;
+        left:423px;
+     
+    
+        
+      }
+      audio::-webkit-media-controls-time-remaining-display {
+        position: relative;
+        left:424px;
+     
+    
+      }
+    
+      audio::-webkit-media-controls-timeline {
+        position: relative;
+        right:110px;
+        padding:50px;
+      }
+      
+    
+      #audioplayer{
+        position: relative;
+        left: 30px;
+        top:40px;
+        width:650px;
+        
+      }
+    
+}
+
+@media screen and (min-width:1145px) and (max-width:1751px) {
+    *{
+        margin:0;
+        padding:0;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 13px;
+    
+    }
+    
+    a:link {
+        color: 2DD6A6;
+      }
+      
+      /* visited link */
+      a:visited {
+        color: 2DD6A6;
+      }
+      
+      /* mouse over link */
+      a:hover {
+        color: 2DD6A6;
+      }
+      
+      /* selected link */
+      a:active {
+        color: 2DD6A6;
+      }
+    
+    body{
+        background-image:     linear-gradient(
+            rgba(0, 1, 0, 0.6),
+            rgba(52, 144, 247, 0.6)
+          
+          ),
+          url("../images/imagemcontainer.jpg");
+          background-repeat: no-repeat; 
+          background-size: cover;
+        
+    }
+    
+    button, input[type="submit"], input[type="reset"] {
+        background: none;
+        color: inherit;
+        border: none;
+        padding: 0;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+    }
+    
+    button:hover {
+        background-color: #2DD6A6;
+    }
+    
+    
+    body{
+        background-color: #493EED;
+        color: white;
+        font-size: large;
+        font-weight: bold;
+    }
+    
+    
+    
+    
+    .musicselection {
+    
+        width:40%;  
+        height: 900px;
+        margin:0 auto;
+    }
+    
+    .musicselectionbox{
+     
+        padding:20px;
+        
+    }
+    
+    
+    
+    
+    .musictotalminutes {
+        float:right;
+        
+    
+    }
+    
+    .playerbox{
+        width:40%;
+        margin:0 auto;
+        text-align: center;
+        padding-top: 90px;
+    }
+    
+    #status{
+        float:left;
+        color:34F789;
+    
+    }
+    
+    #musicname{
+        float:right;
+        white-space: pre;;
+        color:3EECED;
+    }
+    
+    
+    
+    #repeatbutton{
+        float:left;
+    }
+    
+    
+    
+    .downloadicon{
+        float:right;
+    }
+    
+    .arrow{
+        padding:20px;
+        margin-top:50px;
+    }
+    
+    
+    
+    .nextarrow{
+        margin-left:30px;
+    }
+    
+    .player{
+        padding-top:50px;
+        padding-bottom: 100px;
+        
+    }
+    
+    .footer{
+        padding-top:50px;
+        text-align: center;
+    }
+    
+    #startbutton{ 
+        float:left;
+        margin-left:10px;
+        
+    }
+    
+    #stopbutton{
+        float:left;
+        margin-left:10px;
+        
+    }
+    
+    .hidden{
+        display:none;
+    }
+    
+    .slider
+    {
+        width: 500px;
+        float:left;
+        margin-top:4px;
+        margin-left:10px;
+    }
+    
+    
+    #musicbutton{
+        text-align: left;
+        width: 100%;
+    
+    }
+    
+    
+    /* Removes play-button */
+    audio::-webkit-media-controls-play-button {
+        display: none;
+      }
+    
+      /* Removes the time stamp */
+    audio::-webkit-media-controls-current-time-display {
+        position: relative;
+        left:123px;
+     
+    
+        
+      }
+      audio::-webkit-media-controls-time-remaining-display {
+        position: relative;
+        left:124px;
+     
+    
+      }
+    
+      audio::-webkit-media-controls-timeline {
+        position: relative;
+        right:110px;
+        padding:50px;
+      }
+      
+    
+      #audioplayer{
+        position: relative;
+        left: 30px;
+        top:40px;
+        width:350px;
+        
+      }
+    
+}
+
+@media screen and (max-width:1145px) {
+    *{
+        margin:0;
+        padding:0;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 13px;
+    
+    }
+    
+    a:link {
+        color: 2DD6A6;
+      }
+      
+      /* visited link */
+      a:visited {
+        color: 2DD6A6;
+      }
+      
+      /* mouse over link */
+      a:hover {
+        color: 2DD6A6;
+      }
+      
+      /* selected link */
+      a:active {
+        color: 2DD6A6;
+      }
+    
+    body{
+        background-image:     linear-gradient(
+            rgba(0, 1, 0, 0.6),
+            rgba(52, 144, 247, 0.6)
+          
+          ),
+          url("../images/imagemcontainer.jpg");
+          background-repeat: no-repeat; 
+          background-size: cover;
+        
+    }
+    
+    button, input[type="submit"], input[type="reset"] {
+        background: none;
+        color: inherit;
+        border: none;
+        padding: 0;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+    }
+    
+    button:hover {
+        background-color: #2DD6A6;
+    }
+    
+    
+    body{
+        background-color: #493EED;
+        color: white;
+        font-size: large;
+        font-weight: bold;
+    }
+    
+    
+    
+    
+    .musicselection {
+    
+        width:70%;  
+        height: 900px;
+        margin:0 auto;
+    }
+    
+    .musicselectionbox{
+     
+        padding:20px;
+        
+    }
+    
+    
+    
+    
+    .musictotalminutes {
+        float:right;
+        
+    
+    }
+    
+    .playerbox{
+        width:70%;
+        margin:0 auto;
+        text-align: center;
+        padding-top: 90px;
+    }
+    
+    #status{
+        
+        color:34F789;
+    
+    }
+    
+    #musicname{
+        
+        color:3EECED;
+    }
+    
+    
+    
+    #repeatbutton{
+        float:left;
+        margin-left:40px;
+    }
+    
+    
+    
+    .downloadicon{
+        float:right;
+    }
+    
+    .arrow{
+        padding:20px;
+        margin-top:50px;
+    }
+    
+    
+    
+    .nextarrow{
+        margin-left:30px;
+    }
+    
+    .player{
+        padding-top:50px;
+        padding-bottom: 100px;
+        
+    }
+    
+    .footer{
+        padding-top:50px;
+        text-align: center;
+    }
+    
+    #startbutton{ 
+        float:left;
+        margin-left:30px;
+        
+    }
+    
+    #stopbutton{
+      
+        float:left;
+        margin-left:30px;
+        
+    }
+    
+    .hidden{
+        display:none;
+    }
+    
+    .slider
+    {
+        width: 500px;
+        float:left;
+        margin-top:4px;
+        margin-left:10px;
+    }
+    
+    
+    #musicbutton{
+        text-align: left;
+        width: 100%;
+    
+    }
+    
+    
+    /* Removes play-button */
+    audio::-webkit-media-controls-play-button {
+        display: none;
+      }
+    
+      /* Removes the time stamp */
+    audio::-webkit-media-controls-current-time-display {
+        position: relative;
+        left:423px;
+     
+    
+        
+      }
+      audio::-webkit-media-controls-time-remaining-display {
+        position: relative;
+        left:424px;
+     
+    
+      }
+    
+      audio::-webkit-media-controls-timeline {
+        position: relative;
+        right:110px;
+        padding:50px;
+      }
+      
+    
+      #audioplayer{
+        position: relative;
+        right: 5px;
+        top:100px;
+        width:350px;
+        
+      }
+    
+}

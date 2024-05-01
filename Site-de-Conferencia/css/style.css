@@ -1,0 +1,182 @@
+body {
+    background-color: #F2F2F2;
+    margin: 8px;
+}
+
+header {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    border: 3px solid black;
+    padding: 5px;
+    width: 415px;
+    margin: 0px auto;
+    box-shadow: 0px 0px 15px black;
+}
+
+header h1 {
+    color: black;
+    font-size: 45px;
+}
+
+h1 {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+header p {
+    color: black;
+}
+
+p {
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.navbar {
+    font-family: 'Dancing Script', cursive;
+    background-color: #434F5B;
+    font-size: 30px;
+    text-transform: lowercase;
+    text-align: center;
+    width: 415px;
+    margin: 0 auto;
+    background-color: #434F5B;
+}
+
+.navbar ul {
+    padding: 20px 15px;
+    margin: 0px;
+    text-align: center;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.navbar ul li a {
+    color: #F2F2F2;
+    text-decoration: none;
+
+    margin: 0px 5px;
+    padding: 5px;
+}
+
+.navbar ul li a:hover {
+
+    text-decoration: underline;
+    text-underline-offset: 20px;
+}
+
+section h1 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+section p {
+    margin: 0 auto;
+    text-align: center;
+    width: 415px;
+}
+
+section ul {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 17px;
+}
+
+section ul li {
+    list-style-type: none;
+}
+
+section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+    overflow: clip;
+}
+
+.paragrafo p {
+    text-align: justify;
+}
+
+.paragrafofooter p {
+    font-family: 'lora', serif;
+    text-align: justify;
+    margin-top: 25px;
+    color: #2E2E2E;
+
+
+}
+
+.footerline {
+    border-top: 10px solid #434F5B;
+    width: 415px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+footer ul li {
+    display: inline;
+    text-align: left;
+
+}
+
+footer ul li a {
+    display: inline;
+    text-decoration: none;
+
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+
+
+
+}
+
+footer ul li a:visited {
+    color: #2E2E2E;
+
+
+}
+
+.copyright {
+    text-align: center;
+
+}
+
+.float {
+    padding-left: 90px;
+}
+
+.footernav {
+    font-family: 'Dancing Script', cursive;
+}
+
+.copyright {
+    float: right;
+}

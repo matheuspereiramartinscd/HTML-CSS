@@ -1,0 +1,297 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Technical Doocumental Project</title>
+</head>
+
+<body>
+  <div class="sidebar">
+    <ul>
+      <li>
+        <div class="borderhtml">HTML</div>
+      </li>
+      <li>
+        <a href="#introduction">
+          <div class="border">Introdução</div>
+        </a>
+      </li>
+      <li>
+        <a href="#htmleditors">
+          <div class="border">HTML Editors</div>
+        </a>
+      </li>
+      <li>
+        <a href="#htmlelements">
+          <div class="border">HTML Elements</div>
+        </a>
+      </li>
+      <li>
+        <a href="#htmlattributes">
+          <div class="border">HTML Attributes</div>
+        </a>
+      </li>
+      <li>
+        <a href="#htmlheading">
+          <div class="border">HTML Heading</div>
+        </a>
+      </li>
+      <li>
+        <a href="#htmlparagraph">
+          <div class="border">HTML Paragraph</div>
+        </a>
+      </li>
+      <li>
+        <a href="#htmlstyle">
+          <div class="border">HTML Style</div>
+        </a>
+      </li>
+      <li>
+        <a href="#htmlformatting">
+          <div class="border">HTML Formatting</div>
+        </a>
+      </li>
+      <li>
+        <a href="#reference">
+          <div class="borderreference">Referência</div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <section id="main">
+    <section id="introduction">
+      <div class="container">
+        <h1>Introdução</h1>
+        <p>
+          HTML é um acrônimo para HyperText Markup Language, e é o linguagem
+          padrão para criar páginas da web. Cada página da web em que você
+          navega seu navegador é construído usando HTML. O principal uso de
+          HTML para fornecer uma estrutura adequada à página web para que todo
+          o conteúdo ou dados do página poderia representar adequadamente. Um
+          HTML autônomo pode criar apenas páginas estáticas e com aparência de
+          esqueleto em preto e branco, mas com a ajuda de CSS e JavaScript,
+          podemos criar um ambiente mais interativo e página web intuitiva.
+          Quando tentamos visitar um site ou clicar no botão link, basicamente
+          solicitamos ao servidor que nos mostre a página, então o servidor
+          age de acordo com nossa solicitação e nos envia um documento HTML
+          apropriado como resposta. Em seguida, esse documento HTML foi
+          analisado por navegação e podemos para ver o conteúdo.
+        </p>
+      </div>
+      <div class="example">
+        <div class="htmldocument">
+          <h2>HTML Document</h2>
+        </div>
+        <div class="box">
+          <div class="secondbox">
+            <pre>
+!DOCTYPE&nbsp;html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Page&nbsp;Title&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;      
+&lt;h1&gt;This&nbsp;is&nbsp;a&nbsp;Heading&lt;/h1&gt;
+&lt;p&gt;This&nbsp;is&nbsp;a&nbsp;paragraph.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+        </pre>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="htmleditors">
+      <div class="container">
+        <h1>HTML Editors</h1>
+        <p>
+          No entanto, você pode usar o bloco de notas para criar e editar
+          documentos HTML, mas recomendamos instalar um editor de código
+          aberto. Existem muitos softwares editores de texto gratuitos na
+          Internet, que fornecem uma interface de usuário interativa melhor e
+          algumas funcionalidades adicionais que você sente falta em um bloco
+          de notas.
+        </p>
+        <p>
+          Aqui está a lista dos 4 principais editores de texto HTML que você
+          pode escolher:
+        </p>
+        <div class="ulbox">
+          <ul>
+            <li>Sublime Text Editor</li>
+            <li>Notepad++</li>
+            <li>Visual Studio Code</li>
+            <li>Atom</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="htmlelements">
+      <div class="container">
+        <h1>HTML Elements</h1>
+        <p>
+          Os elementos HTML fornecem o significado semântico para a página da
+          web contente. Normalmente, usamos de forma intercambiável os termos
+          elementos HTML e tags, mas tecnicamente ambos são diferentes. Uma
+          tag HTML é apenas um caractere dentro do colchete <>, enquanto o
+            elemento HTML é um coleção de tag inicial, seu atributo, conteúdo e
+            tag final. Para exemplo:
+        </p>
+      </div>
+      <div class="example">
+        <div class="box">
+          <div class="secondbox">
+            &lt;p&nbsp;class=&nbsp;&quot;para&quot;&gt;&nbsp;Hello&nbsp;World&nbsp;&lt;/p&gt;
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="htmlattributes">
+      <div class="container">
+        <h1>HTML Attributes</h1>
+        <p>
+          Em HTML, os atributos são usados ​​para fornecer informações
+          adicionais sobre os elementos. Para a maioria dos elementos HTML, os
+          atributos são opcional, mas existem alguns elementos em que temos
+          que entregar o atributos. Atributos sempre especificados na tag de
+          abertura de o elemento HTML e eles especificados em um par de nome e
+          valor. Exemplo:
+        </p>
+      </div>
+      <div class="example">
+        <div class="box">
+          <div class="secondbox">
+            &lt;image&nbsp;src=&nbsp;&quot;cat.jpg&quot;&nbsp;alt&nbsp;=&quot;cat&nbsp;image&quot;&gt;
+            >
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <p>
+          Neste exemplo, src ="cat.jpg" e alt="cat image" são dois atributos
+          onde src e alt são nomes de atributos e "cat.jpg" e "imagem de gato"
+          são valores de atributos. Aqui o atributo alt é opcional, mas src é
+          obrigatório porque src especifica qual imagem mostrar. Lá deve haver
+          pelo menos um intervalo de espaço entre dois atributos, e o valor
+          dos atributos deve ter residido no duplo invertido vírgula.
+        </p>
+      </div>
+    </section>
+    <section id="htmlheading">
+      <div class="container">
+        <h1>HTML Heading</h1>
+        <p>
+          Para exibir o título da seção, título ou subtítulo, podemos usar o
+          Marcas de cabeçalho HTML. No HTML 5, temos 6 tags de cabeçalho
+          começando em < h1> até < h6>, onde < h1> especifica o cabeçalho
+                maior e < h6> representam o menor ou subtítulo. Se o conteúdo for
+                  especificado por tags de cabeçalho, ele seria exibido grande e em
+                  negrito como em comparação com outros conteúdos de texto presentes
+                  na página da web. Exemplo:
+        </p>
+      </div>
+      <div class="example">
+        <div class="box">
+          <div class="secondbox">
+            <pre>
+&lt;h1&gt;First&nbsp;Heading&nbsp;&lt;/h1&gt;
+&lt;h2&gt;Second&nbsp;Heading&nbsp;&lt;/h2&gt;
+&lt;h3&gt;Third&nbsp;Heading&nbsp;&lt;/h3&gt;
+&lt;h4&gt;Forth&nbsp;Heading&nbsp;&lt;/h4&gt;
+&lt;h5&gt;Fifth&nbsp;Heading&nbsp;&lt;/h5&gt;
+&lt;h6&gt;Sixth&nbsp;Heading&nbsp;&lt;/h6&gt;
+        </pre>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="htmlparagraph">
+      <div class="container">
+        <h1>HTML Paragraph</h1>
+        <p>
+          Em HTML, os parágrafos podem ser definidos usando o elemento < /p>
+            < p> . Parágrafo o texto sempre começa a partir de uma nova linha,
+              o navegador analisou a tag < p> e adicione automaticamente alguma
+                margem e espaço em branco após o final < /p> etiqueta.
+        </p>
+      </div>
+      <div class="example">
+        <div class="box">
+          <div class="secondbox">
+            <pre>
+&lt;p&gt;&nbsp;Hello!&nbsp;and&nbsp;Welcome&nbsp;to&nbsp;the site!&nbsp;&lt;/p&gt;
+          &lt;p&gt;&nbsp;Here&nbsp;you&nbsp;get&nbsp;to&nbsp;know&nbsp;all&nbsp;about&nbsp;the&nbsp;latest&nbsp;technology.&nbsp;&lt;/p&gt;</pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="htmlstyle">
+      <div class="container">
+        <h1>HTML Style</h1>
+        <p>
+          Cada navegador tem um mecanismo específico que analisa o documento
+          HTML e exibe um estilo padrão do conteúdo da página.
+        </p>
+      </div>
+      <div class="example">
+        <div class="box">
+          <div class="secondbox">
+            <pre>
+&lt;body&nbsp;style=&quot;background&#45;color:yellow;&quot;&gt;
+
+&lt;h1&gt;Website&lt;/h1&gt;
+&lt;p&gt;Welcome&nbsp;to&nbsp;the Website&lt;/p&gt;
+          
+&lt;/body&gt;</pre>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="htmlformatting">
+      <div class="container">
+        <h1>HTML Formatting</h1>
+        <p>
+          Em HTML, temos muitos elementos especiais que podem fornecer
+          significado ao conteúdo do texto.
+        </p>
+      </div>
+      <div class="example">
+        <div class="box">
+          <div class="secondbox">
+            <pre>
+HTML&nbsp;Elements	Description
+&lt;b&gt;	Bold&nbsp;the&nbsp;text
+&lt;strong&gt; An&nbsp;alternative&nbsp;for&nbsp;&lt;b&gt;,&nbsp;which&nbsp;tell&nbsp;that&nbsp;this&nbsp;text&nbsp;is&nbsp;essential.
+&lt;i&gt;	Italic&nbsp;the&nbsp;text
+&lt;em&gt;	Similar&nbsp;to&nbsp;italic&nbsp;but&nbsp;used&nbsp;when&nbsp;we&nbsp;want&nbsp;to&nbsp;emphasize&nbsp;the&nbsp;text.
+&lt;mark&gt;	It&nbsp;marks&nbsp;the&nbsp;text&nbsp;with&nbsp;a&nbsp;default&nbsp;&quot;yellow&quot;&nbsp;background&nbsp;colour
+&lt;small&gt;	Decrease&nbsp;the&nbsp;text&nbsp;size
+&lt;del&gt;	It&nbsp;prints&nbsp;a&nbsp;cross&nbsp;line&nbsp;over&nbsp;the&nbsp;text.
+&lt;ins&gt;	Represents&nbsp;the&nbsp;inserted&nbsp;text&nbsp;by&nbsp;putting&nbsp;an&nbsp;underline.
+&lt;sub&gt;	This&nbsp;element&nbsp;is&nbsp;used&nbsp;to&nbsp;display&nbsp;the&nbsp;subscript.
+&lt;sup&gt;	It&nbsp;can&nbsp;make&nbsp;a&nbsp;text&nbsp;superscript.
+        </pre>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="reference">
+      <div class="container">
+        <h1>Referência</h1>
+        <ul>
+          <li>
+            Toda a documentação nesta página foi retirada de
+            <a href="http://">HTML Tutorial</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </section>
+
+  <div class="copyright"></div>
+  <div class="copyright">&copy; Matheus Martins - 2023</div>
+</body>
+
+</html>

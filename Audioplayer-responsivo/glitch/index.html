@@ -1,0 +1,136 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Responsive Audio Player</title>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="playerbox">
+          <span id="status">Pausado..</span>
+          <span id="musicname">Escolha uma música</span>
+          <div class="player">
+            <audio controls id="audioplayer" src=""></audio>
+            <div>
+              <button id="repeatbutton" onclick="Repeatevent();">
+                <div id="repeaticone" class="'">
+                  <img src="images/repeat.png" alt="" />
+                </div>
+              </button>
+
+              <button id="startbutton" onclick="Startevent();">
+                <div id="starticone" class="'">
+                  <img src="images/start.png" alt="" />
+                </div>
+              </button>
+              <button id="stopbutton" onclick="Stopevent();">
+                <div id="stopicone" class="hidden">
+                  <img src="images/stop.png" alt="" />
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="musicselection">
+          <button id="musicbutton" onclick="Redlight();">
+            <div class="musicselectionbox">
+              01. Red Light - Egor Buddenny
+              <span class="musictotalminutes">3:10</span>
+            </div>
+          </button>
+          <button id="musicbutton" onclick="Outof();">
+            <div class="musicselectionbox">
+              02. Tom Orlando - Out Of My Head
+              <span class="musictotalminutes">3:25</span>
+            </div>
+          </button>
+          <button id="musicbutton" onclick="Reason();">
+            <div class="musicselectionbox">
+              03. Lilac Frog - Reason to Stay
+              <span class="musictotalminutes">3:16</span>
+            </div>
+          </button>
+          <button id="musicbutton" onclick="Norest();">
+            <div class="musicselectionbox">
+              04. No Rest Or Endless Rest - Lisofv
+              <span class="musictotalminutes">4:33</span>
+            </div>
+          </button>
+          <button id="musicbutton" onclick="Tantalizing();">
+            <div class="musicselectionbox">
+              05. Tantalizing Youth - Social Square
+              <span class="musictotalminutes">4:12</span>
+            </div>
+          </button>
+          <button id="musicbutton" onclick="Blood();">
+            <div class="musicselectionbox">
+              06. Blood - All My Friends Hate Me
+              <span class="musictotalminutes">3:31</span>
+            </div>
+          </button>
+          <button id="musicbutton" onclick="Cold();">
+            <div class="musicselectionbox">
+              07. Cold Inside - Rude
+              <span class="musictotalminutes">3:17</span>
+            </div>
+          </button>
+          <button id="musicbutton" onclick="Until();">
+            <div class="musicselectionbox">
+              08. Until Tonight - Back On Earth
+              <span class="musictotalminutes">3:31</span>
+            </div>
+          </button>
+          <button id="musicbutton" onclick="Theflood();">
+            <div class="musicselectionbox">
+              09. The Flood - BLC MIRROR CLB
+              <span class="musictotalminutes">3:17</span>
+            </div>
+          </button>
+
+          <button id="musicbutton" onclick="November();">
+            <div class="musicselectionbox">
+              10. Thomas75s - Guns n roses - November rain solo cover
+              <span class="musictotalminutes">1:52</span>
+            </div>
+          </button>
+          <button id="musicbutton" onclick="Sweet();">
+            <div class="musicselectionbox">
+              11. Thomas75s - Guns n roses - Sweet Child O' Mine solo cover
+              <span class="musictotalminutes">1:31</span>
+            </div>
+          </button>
+          <button id="musicbutton" onclick="Appetite();">
+            <div class="musicselectionbox">
+              12. Thomas75s - Guns n roses - Appetite For Destruction - The
+              solos
+              <span class="musictotalminutes">11:35</span>
+            </div>
+          </button>
+          <button id="musicbutton" onclick="Dontcry();">
+            <div class="musicselectionbox">
+              13. Thomas75s - Guns n roses - Don´t cry solo cover
+              <span class="musictotalminutes">0:43</span>
+            </div>
+          </button>
+          <button id="musicbutton" onclick="Nightrain();">
+            <div class="musicselectionbox">
+              14. Thomas75s - Guns n Roses - Nightrain outro solo cover
+              <span class="musictotalminutes">1:44</span>
+            </div>
+          </button>
+        </div>
+        <div class="footer">
+          Criado por Matheus Pereira Martins - &copy; 2023 -
+          <a class="link" href="https://github.com/matheuspereiramartinscd/mpm"
+            >https://github.com/matheuspereiramartinscd/mpm</a
+          ><br />
+        </div>
+      </div>
+    </section>
+    <script src="js/script.js"></script>
+  </body>
+</html>
